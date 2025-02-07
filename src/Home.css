@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.home_row {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin: 20px 0; 
+    gap: 20px;
+}
+
+.home_image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
